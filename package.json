@@ -1,0 +1,19 @@
+{
+  "name": "typescript-node-boilerplate",
+  "version": "1.0.0",
+  "description": "this is a simple boilerplate to test functions in typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "npx tsc -w",
+    "node": "node --watch ./dist/index.js"
+  },
+  "author": "orporeater",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orporeater/typescript-node-boilerplate.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
